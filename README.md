@@ -5,6 +5,7 @@
 Why would we hard-code a plotline structure? My idea is to have the computer look at a text, discern important plot information from it, and construct its own story from that.
 
 **Outline**
+
 1. Compile texts from sources
     - Gutenberg
     - webscraper
@@ -27,3 +28,12 @@ Why would we hard-code a plotline structure? My idea is to have the computer loo
     - Change aspect
     - Repeat until firmly within the cluster
 6. Profit?
+
+**Resources**
+
+- POS tags
+    - https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html
+- Article about Six Plots Analysis
+    - https://www.vice.com/en_us/article/8qxkkb/computers-find-that-there-are-six-plots
+- Datasets of Positive/Negative words
+    - https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html#lexicon
