@@ -1,34 +1,23 @@
 # Project: PlotGEN
+### By Hunter Gallant
+
+---
 
 **Concept**
 
 Why would we hard-code a plotline structure? My idea is to have the computer look at a text, discern important plot information from it, and construct its own story from that.
 
 **Outline**
-1. Compile texts from sources
-    - Gutenberg
-    - webscraper
-    - manually copying and pasting
-2. Analyze the texts
-    - Characters
-        - build frequency table of characters appearances
-        - account for first / second person narration
-        - the most frequently mentioned character is most likely the main character
-    - Setting
-        - use Wordnet to find locations
-        - find descriptors of locations to apply as modifiers
-3. Build plot structure for each text
-    - Summarize each text?
-    - Distill each sentence down to basic concepts
-        - Example: "Michael walked along the sandy, desolate beach" -> "Michael walked beach" -> `[Michael, ACTION, SETTING]`
-    - Using positve / negative word frequency to form a "plot-line"
-4. Train unsupervised learning model on plot structures
-    - Clustering in n-dimensional space
-5. Generate plot structure using structures
-    - Group it with closest cluster
-    - Change aspect
-    - Repeat until firmly within the cluster
-6. Profit?
+
+1. Text Retrieval
+2. Build plot structure
+    - Plotline graphs
+    - Qualitative plot descriptions
+3. Generate new plot structure
+4. Text generation based on new plot
+5. Loop over this like 10,000 times
+6. Submit to NaNoGenMo
+7. Profit?
 
 **Resources**
 
