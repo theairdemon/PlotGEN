@@ -15,7 +15,7 @@ Why would we hard-code a plotline structure? My idea is to have the computer loo
     - Qualitative plot descriptions
 3. Generate new plot structure
 4. Text generation based on new plot
-5. Loop over this like 10,000 times
+5. Loop over this 10,000 times
 6. Submit to NaNoGenMo
 7. Profit?
 
